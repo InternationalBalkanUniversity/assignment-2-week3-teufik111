@@ -6,8 +6,8 @@
 
   <title>Week 3 - HTML Lab</title>
 
-  <!-- TODO (Exercise 4): Add a favicon link here -->
-  <!-- Example: <link rel="icon" type="image/png" href="assets/favicon/favicon.png"> -->
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/732/732212.png">
 </head>
 
 <body>
@@ -15,16 +15,16 @@
   <!-- Exercise 1: Page Structure -->
   <!-- ========================= -->
   <header>
-    <!-- TODO: Add a main heading (h1) -->
-    <!-- TODO: Add an additional heading level (h2 or h3) -->
+    <h1>Welcome to My HTML Lab</h1>
+    <h2>This is Week 3 Assignment</h2>
   </header>
 
   <!-- ========================= -->
   <!-- Exercise 4: Links -->
   <!-- ========================= -->
   <nav>
-    <!-- TODO: Add an external link -->
-    <!-- TODO: Add a link that opens in a new tab (target="_blank") -->
+    <a href="https://www.google.com">Go to Google</a><br>
+    <a href="https://www.youtube.com" target="_blank">Open YouTube in New Tab</a>
   </nav>
 
   <main>
@@ -32,58 +32,126 @@
     <!-- Exercise 2: Paragraphs + HR -->
     <!-- ========================= -->
     <section>
-      <!-- TODO: Add multiple paragraphs -->
-      <!-- TODO: Add one horizontal rule (hr) -->
+      <p>This is my first paragraph in HTML.</p>
+      <p>This is another paragraph to practice.</p>
+      <p>HTML is very easy and fun to learn.</p>
+      <hr>
     </section>
 
     <!-- ========================= -->
     <!-- Exercise 2: Text Formatting -->
     <!-- ========================= -->
     <section>
-      <!-- TODO: Use <strong> -->
-      <!-- TODO: Use <em> -->
-      <!-- TODO: Use <mark> -->
-      <!-- TODO: Use <sup> OR <sub> -->
+      <p><strong>This text is strong (bold).</strong></p>
+      <p><em>This text is emphasized (italic).</em></p>
+      <p><mark>This text is highlighted.</mark></p>
+      <p>H<sub>2</sub>O and X<sup>2</sup></p>
     </section>
 
     <!-- ========================= -->
     <!-- Exercise 3: Lists -->
     <!-- ========================= -->
     <section>
-      <!-- TODO: Add one unordered list (ul) -->
-      <!-- TODO: Add one ordered list (ol) -->
-      <!-- TODO: Add one description list (dl) -->
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+      </ul>
+
+      <h3>Ordered List</h3>
+      <ol>
+        <li>Wake up</li>
+        <li>Go to school</li>
+        <li>Study</li>
+      </ol>
+
+      <h3>Description List</h3>
+      <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Styles the webpage</dd>
+      </dl>
     </section>
 
     <!-- ========================= -->
     <!-- Exercise 4: Image -->
     <!-- ========================= -->
     <section>
-      <!-- TODO: Add one image (local or online) -->
-      <!-- If local, place it in: assets/images/ -->
-      <!-- Example: <img src="assets/images/photo.jpg" alt="..."> -->
+      <h3>Sample Image</h3>
+      <img src="https://via.placeholder.com/300" alt="Sample Image">
     </section>
 
     <!-- ========================= -->
     <!-- Exercise 5: Table -->
     <!-- ========================= -->
     <section>
-      <!-- TODO: Create a table with caption, thead, tbody, tfoot -->
-      <!-- TODO: At least 3 data rows -->
+      <h3>Student Table</h3>
+      <table border="1">
+        <caption>Student Information</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ali</td>
+            <td>20</td>
+            <td>Turkey</td>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>22</td>
+            <td>USA</td>
+          </tr>
+          <tr>
+            <td>Maria</td>
+            <td>21</td>
+            <td>Spain</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">End of Table</td>
+          </tr>
+        </tfoot>
+      </table>
     </section>
 
     <!-- ========================= -->
     <!-- Exercise 6: Form -->
     <!-- ========================= -->
     <section>
-      <!-- TODO: Create a form with:
-           text input, email input, password input,
-           radio buttons, checkbox, submit button -->
+      <h3>Contact Form</h3>
+      <form>
+        <label>Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobby" value="sports"> Sports<br>
+        <input type="checkbox" name="hobby" value="music"> Music<br><br>
+
+        <input type="submit" value="Submit">
+      </form>
     </section>
   </main>
 
   <footer>
-    <!-- TODO: Add your name + year -->
+    <p>Teufik Tufekci - 2026</p>
   </footer>
 </body>
 </html>
